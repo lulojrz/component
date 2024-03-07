@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.component {
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    border-radius: 5%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.img-container {
+    width: 100%;
+
+}
+
+.img-container img {
+    width: 100%;
+
+}
+
+.information {
+    padding: 1rem;
+    gap: 10px;
+}
+
+.information h2 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}
+
+.information p {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.buttons {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5%;
+    padding: .2rem;
+}
+
+.price {
+    margin: auto;
+}
+
+.price h5 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}
+
+.price p {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.link {
+    margin: auto;
+    color: hsl(245, 75%, 52%);
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    ;
+}
+.link a:hover{
+    text-decoration: none;
+}
+.buttons-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.buttons-bottom button {
+    width: 80%;
+    margin: auto;
+    padding: .5rem;
+    border-radius: 5%;
+    border: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#btn-1 {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+#btn-1:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+#btn-2:hover{
+    opacity: .7;
+    cursor: pointer;
+}
